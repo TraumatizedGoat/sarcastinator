@@ -1,0 +1,23 @@
+body{
+    background-color:#5d6975 ;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: 1.5rem;
+}
+textarea{
+    background-color: grey;
+    outline: none;
+}
+.btn{
+    background-color: lightslategrey;
+    border-radius: 10px;
+    font-family: Orbitron;
+    font-weight: 900;
+    width: 10%
+}
+
+.mainHeading{
+    font-family: Orbitron;
+    font-size: 2rem;
+    font-weight: 900;
+}
