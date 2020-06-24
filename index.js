@@ -18,6 +18,6 @@ function sarcastinator(words){
 $("button").click(function(){
     var words = document.querySelector("#yourText").value;
     var shitPost = sarcastinator(words);
-    $("h4").text(shitPost);
-    
+    // $("#outText").text(shitPost);
+    document.querySelector("#outText").innerHTML = shitPost;
 });
