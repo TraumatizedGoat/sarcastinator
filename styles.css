@@ -4,6 +4,9 @@ body{
     font-family: Oswald, sans-serif;
     font-size: 1.5rem;
 }
+textarea::placeholder{
+    color: white;
+}
 textarea{
     background-color: grey;
     outline: none;
@@ -22,4 +25,5 @@ textarea{
     font-size: 2rem;
     font-weight: 900;
     white-space: nowrap;
+    
 }
